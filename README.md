@@ -1,6 +1,6 @@
 # Sprint 6. React I
 
-![Descripción](./assets/readme/screenshot.png)
+![Descripción](./src/assets/readme/screenshot.png)
 
 ### ****[Live Site]( https://react-sprint5.netlify.app/)****
 
@@ -25,7 +25,7 @@ Un/a cliente/a que tiene como producto principal una web de gestión empresarial
 
 Como por el momento no tenemos el material necesario para crear el tutorial, le mostraremos al cliente/a los siguientes 4 pasos:
 
-![Descripción](./assets/images/1.jpg)
+![Descripción](./src/assets/images/1.jpg)
 
 ## ****Nivel I ⭐️****
 
@@ -59,7 +59,7 @@ En este ejercicio haremos que se muestren todas las frases de la historia.
 
 Para ello, debes llevar a cabo las siguientes tareas:
 
-- [ ] 1. Leeremos los datos de un archivo JSON o JS, con los textos de la historia en el componente App:
+- [x] 1. Leeremos los datos de un archivo JSON o JS, con los textos de la historia en el componente App:
 
 ```
 [
@@ -70,12 +70,14 @@ espacial”,
 “Mientras tanto, otros héroes no tuvieron tanta suerte en su elección…”
 ]
 ```
-- [ ] 2. Se debe pasar por **props** cada uno de los textos de la historia al componente Escena. (El componente escena renderizará una sola línea de texto).
 
-- [ ] 3. Modificaremos el **componente Escena** para mostrar todas las líneas de texto obtenidas del componente padre App mediante **props**.
+- [x] 2. Se debe pasar por **props** cada uno de los textos de la historia al componente Escena. (El componente escena renderizará una sola línea de texto).
 
 
- - [ ] 📬 Entregado
+- [x] 3. Modificaremos el **componente Escena** para mostrar todas las líneas de texto obtenidas del componente padre App mediante **props**.
+
+
+ - [x] 📬 Entregado
 
 
 
@@ -83,7 +85,7 @@ espacial”,
 
 Es el momento de aplicar estilos a nuestro componente Escena. Tienes que maquetar este componente utilizando styled-components:
 
-![Ejercicio 3](./assets/readme/03.png)
+![Ejercicio 3](./src/assets/readme/03.png)
 
  - [ ] 📬 Entregado
 
@@ -92,7 +94,7 @@ Es el momento de aplicar estilos a nuestro componente Escena. Tienes que maqueta
 
 Mostraremos todas las líneas de la aplicación, pero resaltaremos sólo una cada vez, que irá cambiando a medida que pulsamos los botones de avanzar o retroceder:
 
-![Ejercicio 4](./assets/readme/04.png)
+![Ejercicio 4](./src/assets/readme/04.png)
 
  - [ ] 📬 Entregado
 
@@ -124,4 +126,4 @@ Modificar el archivo JSON y convertirlo en un archivo JS con un array de objetos
 
 Como en el array ya tienes la frase a mostrar junto a su imagen, te resultará sencillo dinamizar el atributo "src" de la imagen.
 
-![Ejercicio 6](./assets/readme/06.png)
+![Ejercicio 6](./src/assets/readme/06.png)

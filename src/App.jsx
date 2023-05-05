@@ -1,26 +1,17 @@
-import { useState } from 'react'
-import Scene from './components/scene/Scene'
+import React from "react";
 import './App.css'
+import Scene from './components/scene/Scene'
+import stories from "./data/storiesdata";
 
- function App() {
-  const [count, setCount] = useState(0)
-
-
+function App() {
   return (
-    <>
-
-   <Scene />
-     
-      {/* 
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-      </div> */}
-
-      
-    </>
-  )
+    <div>
+      {stories.map((story, index) => (
+        <Scene key={index} text={story.text} />
+      ))}
+    </div>
+  );
 }
+
 
 export default App
