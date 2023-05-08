@@ -1,10 +1,15 @@
 import React from "react";
+import { StoriesTexts  } from "../style";
 
 
 function Scene(props) {
 
-    return <p>{props.text}</p>;
-  }
+return (
+<div>
+  <StoriesTexts >{props.txt}</StoriesTexts>
+</div>
+  );
+
+}
 
 export default Scene;
-

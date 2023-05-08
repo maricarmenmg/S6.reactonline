@@ -29,7 +29,7 @@ Como por el momento no tenemos el material necesario para crear el tutorial, le 
 
 ## ****Nivel I ⭐️****
 
-**Ejercicio 1**
+#### **Ejercicio 1**
 Como ya hemos indicado, una aplicación con React está compuesta de componentes, digamos que cada componente es una pieza del puzle, teniendo estos componentes un propósito único y obvio.
 
 Puedes crear tantos componentes como quieras, y siempre que lo consideres necesario, puedes utilizar uno o varios componentes dentro de otro.
@@ -53,7 +53,7 @@ En este primer ejercicio, crearemos un componente que se encargará de renderiza
  - [x] 📬 Entregado
 
 
-**Ejercicio 2**
+#### **Ejercicio 2**
 
 En este ejercicio haremos que se muestren todas las frases de la historia.
 
@@ -73,36 +73,34 @@ espacial”,
 
 - [x] 2. Se debe pasar por **props** cada uno de los textos de la historia al componente Escena. (El componente escena renderizará una sola línea de texto).
 
-
 - [x] 3. Modificaremos el **componente Escena** para mostrar todas las líneas de texto obtenidas del componente padre App mediante **props**.
-
 
  - [x] 📬 Entregado
 
 
 
-**Ejercicio 3**
+#### **Ejercicio 3**
 
 Es el momento de aplicar estilos a nuestro componente Escena. Tienes que maquetar este componente utilizando styled-components:
 
 ![Ejercicio 3](./src/assets/readme/03.png)
 
- - [ ] 📬 Entregado
+ - [ ] 📪 Entregado
 
 
-**Ejercicio 4**
+####  **Ejercicio 4**
 
 Mostraremos todas las líneas de la aplicación, pero resaltaremos sólo una cada vez, que irá cambiando a medida que pulsamos los botones de avanzar o retroceder:
 
 ![Ejercicio 4](./src/assets/readme/04.png)
 
- - [ ] 📬 Entregado
+ - [ ] 📪  Entregado
 
 ***
 
 ## ****Nivel II ⭐️⭐️****
 
-**Ejercicio 5**
+#### **Ejercicio 5**
 
 ¡ENHORABUENA!, ¡ya has creado la base del proyecto!, ya se puede navegar por la historia indicando al usuario/a en qué punto se encuentra.
 
