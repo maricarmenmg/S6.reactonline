@@ -1,15 +1,26 @@
-import React from "react";
-import { StoriesTexts  } from "../style";
+import React from 'react';
+import { StoriesTexts, ContainerButtons, ContainerButton } from "../style";
 
+const Scene = ({ stories, currentLine, handlePrev, handleNext }) => {
+  return (
+    <div>
+      <ContainerButtons>
+        <ContainerButton onClick={handlePrev} disabled={currentLine === 0}>
+          Previous
+        </ContainerButton>
 
-function Scene(props) {
+        <ContainerButton onClick={handleNext} disabled={currentLine === stories.length - 1}>
+          Next
+        </ContainerButton>
+      </ContainerButtons>
 
-return (
-<div>
-  <StoriesTexts >{props.txt}</StoriesTexts>
-</div>
+      {stories.map((story, index) => (
+        <StoriesTexts key={index} highlighted={index === currentLine}>
+          <p>{story.txt}</p>
+        </StoriesTexts>
+      ))}
+    </div>
   );
-
-}
+};
 
 export default Scene;

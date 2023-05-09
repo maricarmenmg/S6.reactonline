@@ -85,7 +85,7 @@ Es el momento de aplicar estilos a nuestro componente Escena. Tienes que maqueta
 
 ![Ejercicio 3](./src/assets/readme/03.png)
 
- - [ ] 📪 Entregado
+ - [x] 📬 Entregado
 
 
 ####  **Ejercicio 4**
