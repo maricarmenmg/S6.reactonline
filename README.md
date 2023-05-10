@@ -2,7 +2,7 @@
 
 ![Descripción](./src/assets/readme/screenshot.png)
 
-### ****[Live Site]( https://react-sprint5.netlify.app/)****
+### ****[Live Site]( https://react-sprint6.netlify.app//)****
 
 ### **🎯 Objetivos generales**
 
