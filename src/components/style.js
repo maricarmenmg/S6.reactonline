@@ -50,8 +50,48 @@ export const ContainerButton = styled.button`
   }
 
   &:disabled {
-    background-color: #304faa8f;
+    background-color: rgb(48 79 170 / 31%);
     color:#ffffff; 
     cursor: not-allowed;
+  }
+`;
+
+export const WelcomeContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ width: 100%;
+  color:#ffffff;
+
+`;
+
+export const WelcomeTitle = styled.h1`
+  font-size: 2.5rem;
+  text-align: center;
+  width: 100%;
+`;
+
+export const Description = styled.p`
+  font-size: 1.5rem;
+  text-align: center;
+`;
+
+export const StartButton = styled.button`
+  background-color:#304faa;
+  color: white;
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding: 20px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  cursor: pointer;
+
+
+  &:hover {
+    background-color: #304faa;
+    border: 1px solid #232e4f;
+
   }
 `;

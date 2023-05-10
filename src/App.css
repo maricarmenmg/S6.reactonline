@@ -5,11 +5,10 @@ body{
   font-family: 'DM Sans', sans-serif;
   font-weight: 500;
   font-size: 18px;
-  background-image: url(../src/assets/images/1.jpg);
   background-size: cover;
   background-position: center center;
-  background-color: #2828287f;
-
+  background-color: #304faa;
+  
 }
 
 #root {
