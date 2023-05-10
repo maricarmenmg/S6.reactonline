@@ -94,7 +94,7 @@ Mostraremos todas las líneas de la aplicación, pero resaltaremos sólo una cad
 
 ![Ejercicio 4](./src/assets/readme/04.png)
 
- - [ ] 📪  Entregado
+ - [x] 📬 Entregado
 
 ***
 

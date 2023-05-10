@@ -6,7 +6,10 @@ export const Container = styled.div`
   align-items: center;
   margin-bottom: 10px;
   width: 100%;
-  height: 100vh;
+  height: 55vh;
+  border-radius: 18px;
+  padding: 15px;
+  background-color: #2828287f;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -14,8 +17,9 @@ export const Container = styled.div`
 
 export const StoriesTexts = styled.div`
 font-weight: ${({ highlighted }) => (highlighted ? 'bold' : 'normal')};
-background-color: ${({ highlighted }) => (highlighted ? '#00ff7b' : 'transparent')};
-border:2px solid #00ff7b;
+background-color: ${({ highlighted }) => (highlighted ? '#304faa' : 'transparent')};
+color:#ffffff;
+border:2px solid #284495;
 border-radius: 50px;
 padding: 10px;
 margin: 10px auto;
@@ -25,12 +29,12 @@ text-align: center;
 
 export const ContainerButtons = styled.div`
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   padding: 5px;
 `;
 
 export const ContainerButton = styled.button`
-  background-color: red;
+  background-color: #304faa;
   color: white;
   font-size: 1.4rem;
   font-weight: bold;
@@ -42,12 +46,12 @@ export const ContainerButton = styled.button`
   width: 40%; 
 
   &:hover {
-    background-color: #cff9e3;
+    background-color: #7b94de;
   }
 
   &:disabled {
-    background-color: #F5F5F5;
-    color:#010B13; 
+    background-color: #304faa8f;
+    color:#ffffff; 
     cursor: not-allowed;
   }
 `;
