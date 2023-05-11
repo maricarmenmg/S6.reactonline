@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
-import Scene from './components/scene/Scene';
+
 import Welcome from './components/welcome/Welcome';
+import Scene from './components/scene/Scene';
 import stories from "./data/storiesdata";
 import { Container, WelcomeContainer } from './components/style';
 import './App.css';
@@ -9,6 +10,8 @@ import './App.css';
 function App() {
   const [currentLine, setCurrentLine] = useState(0);
   const [showWelcome, setShowWelcome] = useState(true);
+  const backgroundImg = stories[currentLine].img;
+
 
   const handleNext = () => {
     if (currentLine < stories.length - 1) {
@@ -26,13 +29,18 @@ function App() {
     setShowWelcome(false);
   };
 
+
+
   return (
-    <Container>
+
+    
+    <Container img={backgroundImg} >
      {showWelcome ?  (
         <WelcomeContainer>
           <Welcome onStart={handleStart} />
-        </WelcomeContainer>        
+        </WelcomeContainer>      
       ) : (
+        
       <Scene
         stories={stories}
         currentLine={currentLine}
@@ -40,7 +48,6 @@ function App() {
         handleNext={handleNext}
       />
      )}
-
     </Container>
   );
 }

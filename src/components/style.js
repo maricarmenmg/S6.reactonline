@@ -1,15 +1,11 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
   margin-bottom: 10px;
-  width: 100%;
-  height: 55vh;
+  height: 100%;
   border-radius: 18px;
   padding: 15px;
-  background-color: #2828287f;
+  background-image: url(${props => props.img});
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -61,9 +57,8 @@ export const WelcomeContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
- width: 100%;
+  width: 100%;
   color:#ffffff;
-
 `;
 
 export const WelcomeTitle = styled.h1`
