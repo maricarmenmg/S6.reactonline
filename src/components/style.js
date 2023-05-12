@@ -1,17 +1,34 @@
 import styled from 'styled-components';
 
-export const Container = styled.div`
-  margin-bottom: 10px;
-  height: 100%;
-  border-radius: 18px;
-  padding: 15px;
+
+/* Scene */
+
+
+export const Container = styled.main`
+  width: 100vw;
+  height: 100vh;
   background-image: url(${props => props.img});
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 `;
 
-export const StoriesTexts = styled.div`
+export const SceneContainer= styled.div`
+background-color:#0c1965cf;
+border-radius: 18px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 50vw;
+height: 50vh;
+position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+`;
+
+export const StoriesTexts = styled.p`
 font-weight: ${({ highlighted }) => (highlighted ? 'bold' : 'normal')};
 background-color: ${({ highlighted }) => (highlighted ? '#304faa' : 'transparent')};
 color:#ffffff;
@@ -47,18 +64,24 @@ export const ContainerButton = styled.button`
 
   &:disabled {
     background-color: rgb(48 79 170 / 31%);
-    color:#ffffff; 
+    color:#ffffff6b ;
     cursor: not-allowed;
   }
 `;
 
+
+
+/* Welcome */
+
 export const WelcomeContainer = styled.div`
   display: flex;
+  width: 100vw;
+  height: 100vh;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100%;
   color:#ffffff;
+  background-color:#304faa;
 `;
 
 export const WelcomeTitle = styled.h1`
@@ -73,7 +96,7 @@ export const Description = styled.p`
 `;
 
 export const StartButton = styled.button`
-  background-color:#304faa;
+background-color: #2b4695;
   color: white;
   font-size: 1.3rem;
   font-weight: bold;
@@ -85,7 +108,7 @@ export const StartButton = styled.button`
 
 
   &:hover {
-    background-color: #304faa;
+    background-color: #2b4695;
     border: 1px solid #232e4f;
 
   }

@@ -2,6 +2,7 @@ import React from 'react';
 import { StoriesTexts, ContainerButtons, ContainerButton } from '../style';
 
 const Scene = ({ stories, currentLine, handlePrev, handleNext }) => {
+  
   return (
 
     <div>

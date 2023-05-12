@@ -6,7 +6,7 @@ const Welcome = ({ onStart }) => {
     <WelcomeContainer>
       <WelcomeTitle>¡Bienvenidos a la aventura!</WelcomeTitle>
       <Description>
-        Explora nuestra aplicación y ayúda a nuestro héroe 🦸🏻 a volver a casa. <br/> ¿Estás listo para comenzar? 
+        Explora nuestra aplicación y ayúda a nuestro héroe 🦸🏻 a volver a casa. <br/> ¿Listo para comenzar? 
       </Description>
       <StartButton onClick={onStart}> ¡Adelante! 🚀 </StartButton>
     </WelcomeContainer>
