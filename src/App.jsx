@@ -13,15 +13,11 @@ function App() {
   const backgroundImg = stories[currentLine].img;
 
   const handleNext = () => {
-    if (currentLine < stories.length - 1) {
-      setCurrentLine(currentLine + 1);
-    }
+    setCurrentLine((prevLine) => prevLine < stories.length - 1 ? prevLine + 1 : prevLine);
   };
 
   const handlePrev = () => {
-    if (currentLine > 0) {
-      setCurrentLine(currentLine - 1);
-    }
+    setCurrentLine((prevLine) => prevLine > 0 ? prevLine - 1 : prevLine);
   };
 
   const handleStart = () => {
